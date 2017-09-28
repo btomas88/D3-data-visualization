@@ -1,0 +1,314 @@
+[
+  {
+    "id":189, 
+    "name": "UZORCI DIZAJNA",
+    "parent": "null",
+    "url":  "https://www.google.com",
+    "value" : 56,
+    "about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "postotak" : 100,
+    "children": [
+      {
+        "id":190,
+        "name": "OOP PHP",
+        "parent": "Top Level",
+        "url":  "https://www.google.com",
+        "value" : 20,
+        "postotak" : 20,
+        "children": [
+        {
+          "id":192,
+        	"name": "KLASE I OBJEKTI",
+        	"parent": "UZORCI DIZAJNA",
+          "url":  "https://www.google.com",
+          "value" : 10,
+          "postotak" : 30
+        },
+        {
+          "id":193,
+        	"name": "ATRIBUTI",
+        	"parent": "UZORCI DIZAJNA",
+          "url":  "https://www.google.com",
+          "value" : 10,
+          "postotak" : 10
+        },
+        {
+          "id":195,
+        	"name": "METODE",
+        	"parent": "UZORCI DIZAJNA",
+          "url":  "https://www.google.com",
+          "value": 5,
+          "postotak" : 10
+        },
+        {
+          "id":194,
+        	"name": "SUČELJA",
+        	"parent": "UZORCI DIZAJNA",
+          "url":  "https://www.google.com",
+          "value": 5,
+          "postotak" : 10
+        },
+        {
+          "id":196,
+        	"name": "KONSTANTE",
+        	"parent": "UZORCI DIZAJNA",
+          "url":  "https://www.google.com",
+          "value": 5,
+          "postotak" : 30
+        }
+        ]
+      },
+      {
+        "id":197,
+        "name": "CREATIONAL",
+        "parent": "Top Level",
+        "url":  "https://www.google.com",
+        "value": 5,
+        "postotak" : 100,
+        "children":[
+        {
+          "id":202,
+        	"name": "PROTOTYPE",
+        	"parent": "CREATIONAL",
+          "url":  "https://www.google.com",
+          "value": 5,
+          "postotak" : 100
+        },
+        {
+          "id":199,
+        	"name": "ABSTRACT FACTORY",
+        	"parent": "CREATIONAL",
+          "url":  "https://www.google.com",
+          "value": 1,
+          "postotak" : 100,
+        	"children": [
+        	{
+              "id":201,
+        		  "name": "FACTORY METHOD",
+        	    "parent": "ABSTRACT FACTORY",
+              "url":  "https://www.google.com",
+              "value": 2,
+              "postotak" : 100
+        	}
+        	]
+        },
+        {
+          "id":198,
+        	"name": "SINGLETON",
+        	"parent": "CREATIONAL",
+          "url":  "https://www.google.com",
+          "value": 5,
+          "postotak" : 100
+        }
+        ]
+      },
+      {
+        "id":203,
+        "name": "STRUCTURAL",
+        "parent": "Top Level",
+        "url":  "https://www.google.com",
+        "value": 5,
+        "postotak" : 80,
+        "children" : [
+        {
+          "id":208,
+        	"name": "FACADE",
+        	"parent": "STRUCTURAL",
+          "url":  "https://www.google.com",
+          "value": 3,
+          "postotak" : 80
+        },
+        {
+          "id":204,
+        	"name": "ADAPTER",
+        	"parent": "STRUCTURAL",
+          "url":  "https://www.google.com",
+          "postotak" : 30,
+          "value": 7
+        },
+        {
+          "id":210,
+          "name": "PROXY",
+          "parent": "STRUCTURAL",
+          "url":  "https://www.google.com",
+          "postotak" : 80,
+          "value": 5
+        },
+        {
+          "id":206,
+          "name": "COMPOSITE",
+          "parent": "STRUCTURAL",
+          "url":  "https://www.google.com",
+          "value": 5,
+          "postotak" : 80,
+          "children" : [
+          {
+            "id":200,
+            "name":"BUILDER",
+            "parent" : "COMPOSITE",
+            "url":  "https://www.google.com",
+            "postotak" : 80,
+            "value": 5
+          },
+          {
+            "id":209,
+            "name":"FLYWEIGHT",
+            "parent" : "COMPOSITE",
+            "url":  "https://www.google.com",
+            "postotak" : 80,
+            "value": 1
+          },
+          {
+            "id":207,
+            "name":"DECORATOR",
+            "parent" : "COMPOSITE",
+            "url":  "https://www.google.com",
+            "postotak" : 80,
+            "value": 3,
+            "children": [
+            {
+              "id":219,
+              "name":"STRATEGY",
+              "parent" : "DECORATOR",
+              "url":  "https://www.google.com",
+              "postotak" : 20,
+              "value": 1
+            }
+            ]
+          },
+          {
+            "id":214,
+            "name":"ITERATOR",
+            "parent" : "COMPOSITE",
+            "url":  "https://www.google.com",
+            "postotak" : 80,
+            "value": 5,
+            "children": [
+            {
+              "id":216,
+              "name":"MEMENTO",
+              "parent" : "ITERATOR",
+              "url":  "https://www.google.com",
+              "postotak" : 80,
+              "value": 3
+            }
+            ]
+          }
+          ]
+        },
+        {
+          "id":205,
+        	"name": "BRIDGE",
+        	"parent": "STRUCTURAL",
+          "url":  "https://www.google.com",
+          "postotak" : 70,
+          "value": 5
+        }
+        ]
+      },
+      {
+        "id":227,
+        "name": "MVC",
+        "parent": "Top Level",
+        "url":  "https://www.google.com",
+        "postotak" : 50,
+        "value": 5
+      },
+      {
+        "id":211,
+        "name": "BEHAVIORAL",
+        "parent": "Top Level",
+        "url":  "https://www.google.com",
+        "value": 5,
+        "postotak" : 80,
+        "children" : [
+        {
+          "id":212,
+			    "name": "CHAIN OF RESPONSIBILITY",
+        	"parent": "BEHAVIORAL",
+          "url":  "https://www.google.com",
+          "postotak" : 80,
+          "value": 10
+        },
+        {
+          "id":213,
+        	"name": "COMMAND",
+        	"parent": "BEHAVIORAL",
+          "url":  "https://www.google.com",
+          "postotak" : 80,
+          "value": 12
+        },
+        {
+          "id":220,
+        	"name": "TEMPLATE METHOD",
+        	"parent": "BEHAVIORAL",
+          "url":  "https://www.google.com",
+          "postotak" : 80,
+          "value": 1
+        },
+        {
+          "id":217,
+        	"name": "OBSERVER",
+        	"parent": "BEHAVIORAL",
+          "url":  "https://www.google.com",
+          "postotak" : 80,
+          "value": 9,
+          "children":[
+          {
+            "id":215,
+            "name": "MEDIATOR",
+            "parent": "OBSERVER",
+            "url":  "https://www.google.com",
+            "postotak" : 80,
+            "value": 9
+          }
+          ]
+        },
+        {
+          "id":218,
+        	"name": "STATE",
+        	"parent": "BEHAVIORAL",
+          "url":  "https://www.google.com",
+          "postotak" : 80,
+          "value": 5
+        }
+        ]
+      },
+      {
+        "id":228,
+        "name": "UML",
+        "parent": "Top Level",
+        "url":  "https://www.google.com",
+        "postotak" : 50,
+        "value": 5,
+        "children":[
+        {
+          "id":229,
+          "name": "CLASS",
+          "parent": "UML",
+          "url":  "https://www.google.com",
+          "postotak" : 50,
+          "value": 5
+        },
+        {
+          "id":230,
+          "name": "OBJECT",
+          "parent": "UML",
+          "url":  "https://www.google.com",
+          "postotak" : 50,
+          "value": 5
+        },
+        {
+          "id":231,
+          "name": "INTERACTION",
+          "parent": "UML",
+          "url":  "https://www.google.com",
+          "postotak" : 50,
+          "value": 5
+        }
+        ]
+      }
+
+    ]
+  }
+]

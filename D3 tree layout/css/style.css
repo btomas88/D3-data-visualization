@@ -1,0 +1,71 @@
+body { background-color:#F9F9F9; }
+	
+#chart{ background-color: white; }
+
+.node {cursor: pointer;}
+
+.node circle { transition: stroke-width 2s; }
+.node circle:hover{ stroke-width:4px; stroke:#ccc; }
+
+.node text { font: 9px sans-serif; }
+
+.node a :hover{
+  color:red;
+}
+
+.link { fill: none; stroke: #ccc; stroke-width: 1px; }
+
+ text{ text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff; }
+
+
+
+div.tooltip {
+      position: absolute;           
+      height: auto;
+      width: 180px;
+      padding: 0px 5px 0px 5px;
+      background-color: #111;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border-color:#c7c7c7 #b2b2b2 #b2b2b2 #c7c7c7;
+      -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+      pointer-events: none;  
+    }
+    
+    .tooltip_p {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 0 auto;
+        color:white;
+        
+    }
+    
+    .tooltip_h {
+        padding: 10px 0px 0px 0px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        opacity: 0.6;
+          
+    }
+
+
+
+    .square_01{
+      color: #B2E7B2;
+      padding-right: 10px;
+    }
+
+    .square_02{
+      color: #e8e8a2;
+      padding-right: 10px;
+    }
+
+    .square_03{
+      color: #f0a8a8;
+      padding-right: 10px;
+    }
